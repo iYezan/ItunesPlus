@@ -9,3 +9,5 @@ An iOS demo app that finds books in the iTunes database.
 * MVC Design Pattern.
 * REST API.
 * Network Calls.
+
+```$ git clone https://github.com/iYezan/ItunesPlus```

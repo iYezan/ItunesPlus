@@ -53,12 +53,12 @@ class MainVC: UIViewController, UISearchBarDelegate {
             // set up query dictionary
             let query = [
                 "term": searchTerm,
-                "media": "music",
+                "media": "ebook",
                 "lang": "en_us",
                 "limit": "20"
             ]
             // use the item controller to fetch items
-            NetworkManager.shared.getItems(matching: query) { (fetchedItems) in
+            NetworkManager.shared.getItems(matching: query) { fetchedItems in
                 if let fetchedItems = fetchedItems {
                     DispatchQueue.main.async {
                         self.items = fetchedItems

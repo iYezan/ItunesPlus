@@ -10,4 +10,4 @@ An iOS demo app that finds books in the iTunes database.
 * REST API.
 * Network Calls.
 
-```$ git clone https://github.com/iYezan/ItunesPlus```
+```$ git clone https://github.com/iYezan/ItunesPlus.git```
